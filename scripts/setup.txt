@@ -1,0 +1,24 @@
+Model Directory(this directory is also the argument for init, learn and prediction function):
+./TRO_model.mat
+Method Control Parameters:
+Prior_choice_palm:(ratio,uniform,none):
+ratio
+Prior_choice_joint:(ratio,uniform,none):
+ratio
+Threshold Parameters:
+GMM_palm:
+700
+GMM_joint:
+600
+DTW_palm:
+10
+DTW_joint:
+45
+num_random_traj_palm:
+5
+num_random_traj_joint:
+10
+num_GMM_states_palm:
+2
+num_GMM_states_joint:
+3
