@@ -17,7 +17,11 @@ Code for unsupervised online learning algorithm and two layer framework for huma
 #Instruction:
 1. Make sure matlab is installed in the machine.
 
-2. Install pymatlab.
+2. Install pymatlab using pip(according to https://pip.pypa.io/en/stable/installing/ and https://pypi.python.org/pypi/pymatlab).
+
+      2.1 install pip if needed
+      $sudo apt-get install python-pip
+      $pip install 
 
       $ sudo apt-get install csh
   
