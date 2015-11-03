@@ -1,6 +1,7 @@
-# unsupervised_online_reaching_prediction
+# Unsupervised_online_reaching_prediction
 Code for unsupervised online learning algorithm and two layer framework for human reaching motion recognition and early prediction.
 
+# Contents:
 1. Matlab code for unsupervised online learning algorithm.
 
 2. example_UOLA.py code for the example to use the matlab code in python in order to use in a realtime experiment.
@@ -13,7 +14,15 @@ Code for unsupervised online learning algorithm and two layer framework for huma
 
 6. UOLA_predict.m is the prediction function, the input is the directory of the model, the directory of the csv file that stores the observed beginning part of the trajectory, and the directory of the csv file that stores the output predicted trajectory.
 
-Depandencies:
+#Instruction:
+1. Make sure matlab is installed in the machine.
+
+2. Install pymatlab.
+
+2.1 $ sudo apt-get install csh
+$export PATH=
+
+#Depandencies:
 
 1. The interface between matlab and python is pymatlab package. Please refer to https://pypi.python.org/pypi/pymatlab
 
