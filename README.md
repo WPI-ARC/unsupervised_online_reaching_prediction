@@ -22,8 +22,13 @@ Code for unsupervised online learning algorithm and two layer framework for huma
       2.1 install pip if needed
       
       $sudo apt-get install python-pip
-      $pip install 
+      
+      2.2 install pymatlab by pip
+      
+      $sudo pip install 
 
+      2.3 prepare to use pymatlab
+      
       $ sudo apt-get install csh
   
       $export PATH=/YOUR/MATLAB/PATH/bin:$PATH
