@@ -20,7 +20,7 @@ Code for unsupervised online learning algorithm and two layer framework for huma
   
       $export PATH=/YOUR/MATLAB/PATH/bin:$PATH
 
-3. Run example_UOLA.py for a simple example.
+3. Run example_UOLA.py for a simple example. This example file will initialize the model and use the obsTraj.csv to update the model. It will take the testTraj.csv as the observation and write the prediction trajectory to predTraj.csv 
 
 # Contents:
 1. Matlab code for unsupervised online learning algorithm.
