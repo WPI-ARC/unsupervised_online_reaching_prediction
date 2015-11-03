@@ -19,7 +19,7 @@ Code for unsupervised online learning algorithm and two layer framework for huma
 
 2. Install pymatlab.
 
-  2.1 $ sudo apt-get install csh
+      $ sudo apt-get install csh
   
       $export PATH=/YOUR/MATLAB/PATH/bin:$PATH
 
