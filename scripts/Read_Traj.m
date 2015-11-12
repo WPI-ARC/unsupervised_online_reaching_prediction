@@ -1,5 +1,6 @@
 function [ traj ] = Read_Traj(dir)
-%Read Trajectory from directory
+%Read Trajectory from path
+%In case the input is from raw input, feature selection might be required
 %feature_selection need to be clear!!!!
 % feature_selection = [1:19 ];
 data = csvread(dir);

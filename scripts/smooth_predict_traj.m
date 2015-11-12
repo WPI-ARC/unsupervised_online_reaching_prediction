@@ -1,6 +1,5 @@
 function [ exp ] = smooth_predict_traj( traj_p, predict_traj )
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+%  Smooth and normalize the predicted trajectory
 num_len = size(predict_traj,1);
 
 start_traj = predict_traj(1,2:end);

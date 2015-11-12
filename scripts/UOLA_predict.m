@@ -1,8 +1,7 @@
 function[] = UOLA_predict(model_dir,readDir,writeDir)
-%%Desprition
-%%%% Final version 2015 July 15
+%%%% Version 1.1.0
 %%%% Copy Right: Ruikun Luo & ARC lab@ wpi
-%%%% Release version 2015 Oct 22
+%%%% Release Date 2015 Oct 22
 %%%% 2layer framework prediction function
 %%%% Used for robot experiment
 %% Load model

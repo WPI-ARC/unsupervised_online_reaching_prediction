@@ -1,8 +1,7 @@
 function[] = UOLA_learn(model_dir, traj_dir)
-%%Desprition
-%%%% Final version 2015 July 15
+%%%% Version 1.1.0
 %%%% Copy Right: Ruikun Luo & ARC lab@ wpi
-%%%% Release version 2015 Oct 20
+%%%% Release Date 2015 Oct 22
 %%%% 2layer framework learn function, update the model or build the model
 %%%% Used for robot experiment
 

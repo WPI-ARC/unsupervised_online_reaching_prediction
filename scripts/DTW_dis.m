@@ -1,6 +1,5 @@
 function [ dis ] = DTW_dis( traj1,traj2,w )
-%UNTITLED3 Summary of this function goes here
-%   Detailed explanation goes here
+% Compute dynamic time wrapping distance of two given trajectories
 if nargin<3
    w = Inf; 
 end
