@@ -12,7 +12,7 @@ Code for unsupervised online learning algorithm and two layer framework for huma
       
       2.2 install pymatlab by pip
       
-      $sudo pip install 
+      $sudo pip install pymatlab
 
       2.3 prepare to use pymatlab
       
@@ -29,11 +29,11 @@ Code for unsupervised online learning algorithm and two layer framework for huma
 
 3. setup.txt is the parameter setup file for the algorithm.
 
-4. UOLA_init.m is the model initial function, the input is the directory to save the model.
+4. UOLA_init.m is the model initial function, the input is the path to save the model.
 
-5. UOLA_learn.m is the learning function, the input is the directory of the model and the directory of the csv file that stores the observed entire trajectory.
+5. UOLA_learn.m is the learning function, the input is the path of the model and the path of the csv file that stores the observed entire trajectory.
 
-6. UOLA_predict.m is the prediction function, the input is the directory of the model, the directory of the csv file that stores the observed beginning part of the trajectory, and the directory of the csv file that stores the output predicted trajectory.
+6. UOLA_predict.m is the prediction function, the input is the path of the model, the path of the csv file that stores the observed beginning part of the trajectory, and the path of the csv file that stores the output predicted trajectory.
 
 #Depandencies:
 
